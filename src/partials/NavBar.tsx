@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function NavBar() {
 	return (
-		<div className="border-b-2 flex gap-120">
+		<div className="flex gap-120 border-b-2">
 			<Link to="/">NavBar</Link>
 			<div className="flex gap-10">
 				<Link to="/">Home</Link>
