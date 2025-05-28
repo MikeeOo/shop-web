@@ -7,8 +7,8 @@ export default function DefaultLayout() {
 		<div className="h-screen">
 			<div className="border-b-2">DefaultLayout</div>
 			<NavBar />
-			{/* <Button.Primary text="Click me" /> */}
-			{/* <Button.Secondary text="Click me" /> */}
+			<Button.Primary text="Click me" />
+			<Button.Secondary text="Click me" />
 			<Outlet />
 		</div>
 	);
